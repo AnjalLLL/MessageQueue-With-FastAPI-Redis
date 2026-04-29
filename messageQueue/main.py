@@ -8,7 +8,7 @@ from job import printNumber
 app = FastAPI()
 redis_conn = Redis(
     host="localhost",
-    password="Ghimires@123",
+    password="own_password",
     decode_responses=True,
     port=6379, 
     db=0
